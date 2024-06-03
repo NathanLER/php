@@ -25,9 +25,7 @@ if(!isset($_SESSION['login'])) {
     <div class="container">
       <a class="navbar-brand" href="#">Mes séries préférées</a>
     	<div>
-    		 <a class="btn btn-outline-secondary my-2 my-sm-0" href="#">
-    		 	<i class="fas fa-sign-out-alt"></i>
-    		 	Jean-Frédéric 
+
           
 </a>
     	</div>
