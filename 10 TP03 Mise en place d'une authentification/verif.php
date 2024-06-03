@@ -5,8 +5,8 @@ session_start();
 
 if(isset($_POST['login']) && isset($_POST['psw'])) {
     
-    $login = $_POST['login'];
-    $password = $_POST['psw'];
+    $login = htmlspecialchars($_POST['login']);
+    $password = htmlspecialchars($_POST['psw']);
     
     
     $valid_login = "utilisateur";
