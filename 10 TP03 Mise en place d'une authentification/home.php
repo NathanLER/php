@@ -25,12 +25,10 @@ if(!isset($_SESSION['login'])) {
     <div class="container">
       <a class="navbar-brand" href="#">Mes séries préférées</a>
     	<div>
-
-          
-</a>
+        <form action="logout.php" method="post" class="btn btn-outline-secondary my-2 my-sm-0">
+        <button type="submit" name="logout" class="fas fa-sign-out-alt">Log Out</button>
     	</div>
-      <form action="logout.php" method="post">
-        <button type="submit" name="logout">Log Out</button>
+
     </form>
   </nav>
 
